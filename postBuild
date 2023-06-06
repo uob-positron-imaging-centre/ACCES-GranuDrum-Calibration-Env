@@ -1,13 +1,9 @@
 #!/bin/bash
-set -e
+# set -e
 
 
 # Enable nbgitpuller
 jupyter serverextension enable --py nbgitpuller --sys-prefix
-
-
-# Install VTK from anaconda channel, then pyvista
-pip install pyvista opencv-python plotly kaleido matplotlib
 
 
 # Install LIGGGHTS

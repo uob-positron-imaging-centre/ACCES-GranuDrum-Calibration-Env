@@ -6,9 +6,14 @@ dependencies:
   - numpy
   - scipy
   - pandas
-  - anaconda::vtk
+  - pyvista
+  - opencv
+  - plotly
+  - python-kaleido
+  - matplotlib
   - cxx-compiler
   - openmpi
+  - mesalib
   - boost
   - cmake
   - make
