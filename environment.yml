@@ -4,11 +4,16 @@ channels:
 dependencies:
   - python
   - numpy
+  - scipy
   - pandas
   - pyvista
   - opencv
+  - plotly
+  - matplotlib
   - cxx-compiler
   - openmpi
+  - cmake
+  - make
   - pip
   - pip:
     - nbgitpuller

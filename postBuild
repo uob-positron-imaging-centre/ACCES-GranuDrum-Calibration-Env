@@ -7,6 +7,7 @@ jupyter serverextension enable --py nbgitpuller --sys-prefix
 
 
 # Install LIGGGHTS
+printf "Installing LIGGGHTS...\n"
 current_dir=$(pwd)
 
 parent_dir=${HOME}/PICI-LIGGGHTS
