@@ -6,6 +6,11 @@ set -e
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 
 
+# Install VTK from anaconda channel, then pyvista
+conda install -c anaconda vtk
+pip install pyvista
+
+
 # Install LIGGGHTS
 printf "Installing LIGGGHTS...\n"
 current_dir=$(pwd)
