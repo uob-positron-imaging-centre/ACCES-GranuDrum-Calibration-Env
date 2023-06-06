@@ -6,6 +6,7 @@ dependencies:
   - numpy
   - scipy
   - pandas
+  - vtk==9.0.3
   - pyvista
   - opencv
   - plotly
