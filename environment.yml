@@ -1,0 +1,18 @@
+name: access-granudrum-calibration-env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - pyvista
+  - opencv
+  - cxx-compiler
+  - openmpi
+  - pip
+  - pip:
+    - nbgitpuller
+    - konigcell>=0.2
+    - coexist>=0.3
+
+
