@@ -6,6 +6,7 @@ dependencies:
   - numpy
   - scipy
   - pandas
+  - anaconda::vtk
   - cxx-compiler
   - openmpi
   - boost
