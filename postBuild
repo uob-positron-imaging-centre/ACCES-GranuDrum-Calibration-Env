@@ -8,7 +8,7 @@ jupyter serverextension enable --py nbgitpuller --sys-prefix
 
 # Install VTK from anaconda channel, then pyvista
 conda install -c anaconda vtk -y
-pip install pyvista
+pip install pyvista opencv-python plotly kaleido matplotlib
 
 
 # Install LIGGGHTS
