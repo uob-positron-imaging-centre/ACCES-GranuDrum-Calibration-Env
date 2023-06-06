@@ -6,6 +6,7 @@ dependencies:
   - numpy
   - scipy
   - pandas
+  - anaconda::vtk
   - pyvista
   - opencv
   - plotly
@@ -14,7 +15,6 @@ dependencies:
   - cxx-compiler
   - openmpi
   - mesalib
-  - xdmfwrite_h5py
   - boost
   - cmake
   - make
