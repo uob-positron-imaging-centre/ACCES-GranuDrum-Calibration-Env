@@ -9,9 +9,11 @@ dependencies:
   - pyvista
   - opencv
   - plotly
+  - python-kaleido
   - matplotlib
   - cxx-compiler
   - openmpi
+  - libglu
   - cmake
   - make
   - pip
