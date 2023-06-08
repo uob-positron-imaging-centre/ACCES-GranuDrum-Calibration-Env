@@ -3,24 +3,16 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - vtk
-  - paraview
+  - numpy
+  - scipy
+  - pandas
   - cxx-compiler
   - openmpi
-  - mesalib
   - boost
   - cmake
   - make
   - pip
   - pip:
-    - numpy
-    - scipy
-    - pandas
-    - opencv-python
-    - plotly
-    - kaleido
-    - matplotlib
-    - pyvista
     - nbgitpuller
     - konigcell>=0.2
     - coexist>=0.3
