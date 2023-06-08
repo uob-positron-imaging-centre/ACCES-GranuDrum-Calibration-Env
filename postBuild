@@ -32,3 +32,5 @@ make install -j 4
 cd $current_dir
 
 
+# Test LIGGGHTS
+liggghts -help
