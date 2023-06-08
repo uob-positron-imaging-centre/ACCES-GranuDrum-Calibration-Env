@@ -6,19 +6,21 @@ dependencies:
   - numpy
   - scipy
   - pandas
+  - pyvista
   - opencv
   - plotly
   - python-kaleido
   - matplotlib
+  - paraview
   - cxx-compiler
   - openmpi
+  - mesalib
   - boost
   - cmake
   - make
   - pip
   - pip:
     - nbgitpuller
-    - pyvista
     - konigcell>=0.2
     - coexist>=0.3
 
