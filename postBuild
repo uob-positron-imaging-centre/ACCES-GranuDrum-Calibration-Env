@@ -6,10 +6,40 @@ set -e
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 
 
+# Install VTK
+printf "Installing VTK...\n"
+current_dir=$(pwd)
+parent_dir=${HOME}/VTK
+source_dir=$parent_dir/VTK-9
+build_dir=$parent_dir/VTK-9-build
+
+
+# Create directories if needed
+if [[ ! -d $parent_dir ]]; then
+    mkdir $parent_dir
+fi
+
+if [[ ! -d $source_dir ]]; then
+    git clone --tag v9.2.6 https://github.com/Kitware/VTK.git $source_dir
+fi
+
+if [[ ! -d $build_dir ]]; then
+    mkdir $build_dir
+fi
+
+
+# Go into build dir and install VTK
+cd $build_dir
+cmake -D CMAKE_BUILD_TYPE=Release -D VTK_GROUP_ENABLE_MPI=YES -D VTK_USE_MPI=ON $source_dir
+make install -j 4
+cd $current_dir
+
+
+
+
 # Install LIGGGHTS
 printf "Installing LIGGGHTS...\n"
 current_dir=$(pwd)
-
 parent_dir=${HOME}/PICI-LIGGGHTS
 source_dir=$parent_dir/src
 build_dir=$parent_dir/LIGGGHTS-build
@@ -37,7 +67,7 @@ liggghts -help
 
 
 # Install the rest of the pip packages
-pip install opencv-python plotly kaleido matplotlib pyvista
+pip install pyvista
 
 
 # Test LIGGGHTS again

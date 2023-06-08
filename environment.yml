@@ -6,6 +6,15 @@ dependencies:
   - numpy
   - scipy
   - pandas
+  - opencv
+  - plotly
+  - python-kaleido
+  - matplotlib
+  - cxx-compiler
+  - openmpi
+  - boost
+  - cmake
+  - make
   - pip
   - pip:
     - nbgitpuller

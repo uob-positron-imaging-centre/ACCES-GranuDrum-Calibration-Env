@@ -1,5 +1,0 @@
-cmake
-libopenmpi-dev
-openmpi-bin
-vtk7
-libvtk7-dev
