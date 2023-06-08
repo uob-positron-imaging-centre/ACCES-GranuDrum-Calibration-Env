@@ -1,1 +1,3 @@
+libopenmpi-dev
+openmpi-bin
 libvtk7-dev
