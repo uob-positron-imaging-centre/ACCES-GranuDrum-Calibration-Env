@@ -20,7 +20,7 @@ if [[ ! -d $parent_dir ]]; then
 fi
 
 if [[ ! -d $source_dir ]]; then
-    git clone --tag v9.2.6 https://github.com/Kitware/VTK.git $source_dir
+    git clone --branch v9.2.6 https://github.com/Kitware/VTK.git $source_dir
 fi
 
 if [[ ! -d $build_dir ]]; then
