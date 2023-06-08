@@ -12,6 +12,7 @@ dependencies:
   - matplotlib
   - cxx-compiler
   - openmpi
+  - mesalib
   - boost
   - cmake
   - make
