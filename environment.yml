@@ -10,10 +10,11 @@ dependencies:
   - plotly
   - python-kaleido
   - matplotlib
-  - {{ compiler('c') }}
-  - {{ compiler('cxx') }}
-  - {{ cdt('mesa-libgl-devel') }}
+  - cxx-compiler
   - openmpi
+  - mesalib
+  - libglu
+  - freeglut
   - boost
   - cmake
   - make
