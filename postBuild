@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 
 # Enable nbgitpuller
@@ -8,6 +7,10 @@ jupyter serverextension enable --py nbgitpuller --sys-prefix
 
 # Install VTK
 printf "Installing VTK...\n"
+
+ln -s /usr/lib/x86_64-linux-gnu/libGL.so.1 /usr/lib/x86_64-linux-gnu/libGL.so
+set -e
+
 current_dir=$(pwd)
 parent_dir=${HOME}/VTK
 source_dir=$parent_dir/VTK-9
