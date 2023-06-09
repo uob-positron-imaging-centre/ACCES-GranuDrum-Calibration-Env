@@ -10,6 +10,7 @@ dependencies:
   - plotly
   - python-kaleido
   - matplotlib
+  - mesalib
   - pyvista
   - vtk
   - cxx-compiler
