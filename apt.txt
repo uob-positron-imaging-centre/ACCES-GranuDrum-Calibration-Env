@@ -1,3 +1,7 @@
+cmake
 libgl-dev
 libglu-dev
 mesa-utils-extra
+libboost-all-dev
+openmpi-bin
+libopenmpi-dev
