@@ -13,6 +13,7 @@ dependencies:
   - cxx-compiler
   - openmpi
   - mesalib
+  - libglu
   - boost
   - cmake
   - make
