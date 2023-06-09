@@ -1,4 +1,3 @@
-cmake
 libgl-dev
 libglu-dev
 mesa-utils-extra

@@ -10,6 +10,7 @@ dependencies:
   - plotly
   - python-kaleido
   - matplotlib
+  - cmake
   - pip
   - pip:
     - nbgitpuller
