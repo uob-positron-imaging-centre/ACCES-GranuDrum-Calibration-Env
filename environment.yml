@@ -10,9 +10,13 @@ dependencies:
   - plotly
   - python-kaleido
   - matplotlib
+  - pyvista
+  - vtk
+  - cxx-compiler
   - openmpi
   - boost
   - cmake
+  - make
   - pip
   - pip:
     - nbgitpuller
