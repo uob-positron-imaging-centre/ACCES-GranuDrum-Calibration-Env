@@ -1,4 +1,4 @@
 mesa-common-dev
 mesa-utils
 freeglut3-dev
-boost
+libboost-all-dev
