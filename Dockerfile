@@ -4,7 +4,7 @@ FROM anicusan/pici-liggghts:v3.8.1-focal
 
 # Below adapted from https://github.com/pangeo-data/pangeo-docker-images/blob/master/base-image/Dockerfile - thank you Pangeo!
 EXPOSE 8888
-ENTRYPOINT ["/srv/start"]
+#ENTRYPOINT ["/srv/start"]
 #CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
 
 # We use ONBUILD (https://docs.docker.com/engine/reference/builder/#onbuild)
