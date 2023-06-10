@@ -25,7 +25,7 @@ ENTRYPOINT ["/srv/start"]
 ONBUILD USER root
 # FIXME (?): user and home folder is hardcoded for now
 # FIXME (?): this line breaks the cache of all steps below
-ONBUILD COPY --chown=dealii:dealii . /home/jovyan
+ONBUILD COPY --chown=dealii:dealii . /home/dealii
 
 # repo2docker will load files from a .binder or binder directory if
 # present. We check if those directories exist, and print a diagnostic
